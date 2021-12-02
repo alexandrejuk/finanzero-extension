@@ -1,28 +1,20 @@
 {
-  "manifest_version": 2,
-  "name": "Finanzero extension",
-  "description": "QA Finanzero",
-  "version": "1.0.0",
-  "icons": { "128": "icon_128.png" },
-  "browser_action": {
-    "default_title": "Test",
-    "default_popup": "index.html"
-  },
-  "content_scripts": [
-    {
-      "matches": [
-        "http://*/*", 
-        "https://*/*", 
-        "https://fonts.googleapis.com/css?family=Open+Sans",
-        "*://*/*"
-    ],
-      "js": [
-        "app.js"
-      ]
-    }
-  ],
+  "name": "Finanzero Quality Assurance",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "As your programs or web applications become more complex, you'll want to test them to make sure that new changes don't break their original functionality.",
   "permissions": [
     "activeTab",
-    "<all_urls>"
-  ]
+    "scripting",
+    "storage"
+  ],
+  "icons": { 
+    "16": "icon_16.png",
+    "48": "icon_48.png",
+   "128": "icon_128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
 }
