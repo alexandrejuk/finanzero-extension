@@ -1,0 +1,119 @@
+:root {
+  --color-primary: #05bcb4;
+  --color-secondary-darken: #e0e0e0;
+  --color-white: #fff;
+  --color-mine-shaft: #4a4a4a;
+  --color-primary-lighten: #e9fffe;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+  font-size: 14px;
+  margin: 0;
+  min-height: 180px;
+  padding: 0;
+  width: 496px;
+  box-sizing: border-box;
+  background-color: var(--color-white);
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 4.5rem;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  background-color: var(--color-primary);
+}
+
+.tabs {
+  align-items: center;
+  border-bottom: 1px solid var(--color-secondary-darken);
+  background: var(--color-white);
+  display: flex;
+  font-size: .8rem;
+}
+
+.tab {
+  color: var(--color-primary);
+  cursor: pointer;
+  letter-spacing: .5px;
+  padding: 1rem 1.5rem 0.8rem 1.5rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  position: relative;
+}
+
+.tab--active {
+  border-bottom: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  pointer-events: none;
+}
+
+.tab-item {
+  background: var(--color-white);
+  overflow: hidden;
+  padding: 1rem 1.5rem 2rem 1.5rem;
+}
+
+.tab-item--hidden {
+  display: none;
+}
+
+.form-group > * {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.form-group label {
+  margin: 8px 0;
+  color: var(--color-mine-shaft);
+}
+
+.form-group input {
+  padding: .5em;
+  border-radius: 0.2em;
+  border: 1px solid var(--color-secondary-darken);
+  transition: all 0.5s ease;
+  color: var(--color-mine-shaft);
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.col-6 {
+  width: calc((100% / 2) - .6rem);
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.footer {
+  padding: 1em 1.5rem;
+  background-color: var(--color-primary-lighten);
+  color: var(--color-primary);
+}
+
+p, h4 {
+  margin: 0;
+}
+
+p {
+  margin-top: 12px;
+}
