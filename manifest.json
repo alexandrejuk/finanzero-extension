@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Finanzero extension",
+  "description": "QA Finanzero",
+  "version": "1.0.0",
+  "icons": { "128": "icon_128.png" },
+  "browser_action": {
+    "default_title": "Test",
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*", 
+        "https://*/*", 
+        "https://fonts.googleapis.com/css?family=Open+Sans",
+        "*://*/*"
+    ],
+      "js": [
+        "app.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "<all_urls>"
+  ]
+}
