@@ -31,9 +31,9 @@ function modifyDOM() {
   };
   
   const dataMocks = {
-    companyName: 'Company Name Finanzero Quality Adivisor',
-    name: 'Teste Quality Adivisor Finanzero',
-    email: `quality.adivisor+${new Date().getTime()}@finanzero.com.br`,
+    companyName: 'Company Name Finanzero Quality Assurance',
+    name: 'Teste Quality Assurance Finanzero',
+    email: `quality.assurance+${new Date().getTime()}@finanzero.com.br`,
     phone: '11987654321',
     zipcode: '01310200',
     password: 'parati',
