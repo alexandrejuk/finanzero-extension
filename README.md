@@ -1,20 +1,19 @@
-<!-- const title = document.getElementsByTagName('h1');
-title[0].innerText = "Alexandre Soares" -->
-<!-- 
-// jquey
-// var $myInput = $('#changeProgramatic').on('change', ChangeValue);
-// var anotherFunction = function() {
-//   $myInput.val('Another value');
-//   $myInput.trigger('change');
-// };
+# Quality Assurance Finanzero
 
-// react js
-// const valueSetter = Object.getOwnPropertyDescriptor(this.textInputRef, 'value').set;
-// const prototype = Object.getPrototypeOf(this.textInputRef);
-// const prototypeValueSetter = Object.getOwnPropertyDescriptor(prototype, 'value').set;
-// if (valueSetter && valueSetter !== prototypeValueSetter) {
-//   prototypeValueSetter.call(this.textInputRef, 'new value');
-// } else {
-//   valueSetter.call(this.textInputRef, 'new value');
-// }
-// this.textInputRef.dispatchEvent(new Event('input', { bubbles: true })); -->
+## Description
+As your programs or web applications become more complex, you'll want to test them to make sure that newchanges don't break their original functionality.
+
+## Instalation
+
+1. Clone the repo: git remote add origin git@github.com:alexandrejuk/pokemon-react.git
+2. Goto Chrome Settings using three dots on the top right corner.
+3. Then Select Extensions.
+4. Now, Enable developer mode
+5. Click on Load Unpacked and select your Unzip folder.
+6. The extension will be installed now.
+
+## Extension icon
+![icon-extension](icon_48.png)
+
+## Author
+[Alexandre Soares](https://github.com/alexandrejuk)
