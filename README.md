@@ -5,7 +5,7 @@ As your programs or web applications become more complex, you'll want to test th
 
 ## Instalation
 
-1. Clone the repo: git clone git@github.com:alexandrejuk/pokemon-react.git
+1. Clone the repo: git clone git@github.com:alexandrejuk/finanzero-extension.git
 2. Goto Chrome Settings using three dots on the top right corner.
 3. Then Select Extensions.
 4. Now, Enable developer mode
